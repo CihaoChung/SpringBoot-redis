@@ -1,0 +1,14 @@
+redis:
+  profile: dev
+  hostName: 192.168.111.128
+  port: 6379
+  password:
+  timeout: 5000
+  maxWaitMillis: 1000
+  maxIdle: 300
+  maxTotal: 1000
+  minEvictableIdleTimeMillis: 300000
+  numTestsPerEvictionRun: 1024
+  timeBetweenEvictionRunsMillis: 30000
+  testOnBorrow: true
+  testWhileIdle: true
